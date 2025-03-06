@@ -1,18 +1,17 @@
 
 import React from 'react';
 import { MapPin, Phone, Mail } from 'lucide-react';
+import Logo from './Logo';
 
 const Footer: React.FC = () => {
   return (
-    <footer className="bg-agrobravo-dark text-white py-12">
+    <footer className="bg-agrobravo-navy text-white py-12">
       <div className="container-wide">
         <div className="grid md:grid-cols-4 gap-10">
           <div className="col-span-1">
             <div className="mb-4">
               <a href="/" className="inline-block">
-                <span className="text-2xl font-bold font-display">
-                  Agro<span className="text-agrobravo-gold">Bravo</span>
-                </span>
+                <Logo variant="light" />
               </a>
             </div>
             <p className="text-white/70 mb-6">
@@ -65,15 +64,15 @@ const Footer: React.FC = () => {
             <h3 className="text-lg font-semibold mb-4">Contato</h3>
             <div className="space-y-4">
               <div className="flex items-start">
-                <MapPin className="w-5 h-5 text-agrobravo-gold mr-3 mt-1" />
+                <MapPin className="w-5 h-5 text-agrobravo-red mr-3 mt-1" />
                 <span className="text-white/70">Des Moines, Iowa (EUA)</span>
               </div>
               <div className="flex items-start">
-                <Phone className="w-5 h-5 text-agrobravo-gold mr-3 mt-1" />
+                <Phone className="w-5 h-5 text-agrobravo-red mr-3 mt-1" />
                 <span className="text-white/70">+1 (555) 123-4567</span>
               </div>
               <div className="flex items-start">
-                <Mail className="w-5 h-5 text-agrobravo-gold mr-3 mt-1" />
+                <Mail className="w-5 h-5 text-agrobravo-red mr-3 mt-1" />
                 <span className="text-white/70">contato@agrobravo.com</span>
               </div>
             </div>
@@ -83,7 +82,7 @@ const Footer: React.FC = () => {
         <div className="mt-12 pt-8 border-t border-white/10">
           <div className="flex flex-col md:flex-row md:justify-between items-center">
             <p className="text-white/60 text-sm mb-4 md:mb-0">
-              &copy; {new Date().getFullYear()} AgroBravo. Todos os direitos reservados.
+              &copy; {new Date().getFullYear()} AgroBravo Enterprise. Todos os direitos reservados.
             </p>
             <div className="flex space-x-6">
               <a href="#" className="text-white/60 text-sm hover:text-white transition-colors">Termos de Uso</a>

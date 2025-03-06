@@ -20,7 +20,7 @@ const Hero: React.FC = () => {
       {/* Content */}
       <div className="container-wide relative z-10 py-20 md:py-32">
         <div className="max-w-3xl">
-          <div className="inline-block px-4 py-1 rounded-full bg-agrobravo-gold/20 backdrop-blur-sm border border-agrobravo-gold/30 mb-6 opacity-0 animate-fade-in" style={{ animationDelay: '0.3s', animationFillMode: 'forwards' }}>
+          <div className="inline-block px-4 py-1 rounded-full bg-agrobravo-red/20 backdrop-blur-sm border border-agrobravo-red/30 mb-6 opacity-0 animate-fade-in" style={{ animationDelay: '0.3s', animationFillMode: 'forwards' }}>
             <p className="text-white font-medium">Exclusivo para Concessionárias John Deere</p>
           </div>
           

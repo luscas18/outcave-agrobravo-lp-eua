@@ -2,6 +2,7 @@
 import React, { useState, useEffect } from 'react';
 import { cn } from '@/lib/utils';
 import { Menu, X } from 'lucide-react';
+import Logo from './Logo';
 
 const Header: React.FC = () => {
   const [isScrolled, setIsScrolled] = useState(false);
@@ -28,9 +29,7 @@ const Header: React.FC = () => {
       <div className="container-wide flex items-center justify-between">
         <div className="flex items-center">
           <a href="/" className="flex items-center">
-            <span className="text-2xl font-bold text-agrobravo-dark font-display">
-              Agro<span className="text-agrobravo-gold">Bravo</span>
-            </span>
+            <Logo variant={isScrolled ? 'default' : 'light'} />
           </a>
         </div>
 
@@ -38,19 +37,34 @@ const Header: React.FC = () => {
         <nav className="hidden md:flex items-center space-x-8">
           <a
             href="#about"
-            className="text-agrobravo-dark hover:text-agrobravo-gold transition-colors duration-300"
+            className={cn(
+              "transition-colors duration-300",
+              isScrolled 
+                ? "text-agrobravo-navy hover:text-agrobravo-red" 
+                : "text-white hover:text-agrobravo-red"
+            )}
           >
             Sobre
           </a>
           <a
             href="#benefits"
-            className="text-agrobravo-dark hover:text-agrobravo-gold transition-colors duration-300"
+            className={cn(
+              "transition-colors duration-300",
+              isScrolled 
+                ? "text-agrobravo-navy hover:text-agrobravo-red" 
+                : "text-white hover:text-agrobravo-red"
+            )}
           >
             Benefícios
           </a>
           <a
             href="#exclusivity"
-            className="text-agrobravo-dark hover:text-agrobravo-gold transition-colors duration-300"
+            className={cn(
+              "transition-colors duration-300",
+              isScrolled 
+                ? "text-agrobravo-navy hover:text-agrobravo-red" 
+                : "text-white hover:text-agrobravo-red"
+            )}
           >
             Exclusividade
           </a>
@@ -64,7 +78,10 @@ const Header: React.FC = () => {
 
         {/* Mobile Menu Button */}
         <button
-          className="md:hidden text-agrobravo-dark"
+          className={cn(
+            "md:hidden",
+            isScrolled ? "text-agrobravo-navy" : "text-white"
+          )}
           onClick={() => setIsMobileMenuOpen(!isMobileMenuOpen)}
           aria-label={isMobileMenuOpen ? 'Fechar menu' : 'Abrir menu'}
         >
@@ -82,21 +99,21 @@ const Header: React.FC = () => {
         <nav className="flex flex-col items-center space-y-8 p-8">
           <a
             href="#about"
-            className="text-agrobravo-dark text-xl hover:text-agrobravo-gold transition-colors duration-300"
+            className="text-agrobravo-navy text-xl hover:text-agrobravo-red transition-colors duration-300"
             onClick={() => setIsMobileMenuOpen(false)}
           >
             Sobre
           </a>
           <a
             href="#benefits"
-            className="text-agrobravo-dark text-xl hover:text-agrobravo-gold transition-colors duration-300"
+            className="text-agrobravo-navy text-xl hover:text-agrobravo-red transition-colors duration-300"
             onClick={() => setIsMobileMenuOpen(false)}
           >
             Benefícios
           </a>
           <a
             href="#exclusivity"
-            className="text-agrobravo-dark text-xl hover:text-agrobravo-gold transition-colors duration-300"
+            className="text-agrobravo-navy text-xl hover:text-agrobravo-red transition-colors duration-300"
             onClick={() => setIsMobileMenuOpen(false)}
           >
             Exclusividade

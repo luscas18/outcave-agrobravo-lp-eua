@@ -26,11 +26,11 @@ export default {
 				background: 'hsl(var(--background))',
 				foreground: 'hsl(var(--foreground))',
 				agrobravo: {
-					green: '#1F3520',  // Deep forest green
-					gold: '#D4AF37',   // Rich gold
-					light: '#F8F7F2',  // Light cream
-					dark: '#222222',   // Near black
-					gray: '#8E9196',   // Neutral gray
+					navy: '#0E2C4B',    // Deep navy blue from logo
+					red: '#E83A3A',     // Red from logo
+					light: '#F8F7F2',   // Light cream (keeping this from before)
+					dark: '#222222',    // Near black
+					gray: '#8E9196',    // Neutral gray
 				},
 				primary: {
 					DEFAULT: 'hsl(var(--primary))',
@@ -121,7 +121,7 @@ export default {
 			},
 			backgroundImage: {
 				'gradient-radial': 'radial-gradient(var(--tw-gradient-stops))',
-				'hero-pattern': 'linear-gradient(rgba(31, 53, 32, 0.7), rgba(31, 53, 32, 0.8))',
+				'hero-pattern': 'linear-gradient(rgba(14, 44, 75, 0.8), rgba(14, 44, 75, 0.9))',
 			},
 		}
 	},
