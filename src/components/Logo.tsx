@@ -22,7 +22,7 @@ const Logo: React.FC<LogoProps> = ({ variant = 'default', className = '' }) => {
   // Light variant (white text for dark backgrounds)
   return (
     <div className={`flex items-center ${className}`}>
-      <span className="text-2xl font-bold text-white font-display">
+      <span className="text-2xl font-bold text-white">
         Agro<span className="text-agrobravo-red">Bravo</span>
         <span className="text-white text-sm ml-1 tracking-wider">ENTERPRISE</span>
       </span>
