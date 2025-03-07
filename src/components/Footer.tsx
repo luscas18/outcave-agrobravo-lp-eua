@@ -1,6 +1,5 @@
-
 import React from 'react';
-import { MapPin, Phone, Mail } from 'lucide-react';
+import { MapPin, Mail } from 'lucide-react';
 import Logo from './Logo';
 
 const Footer: React.FC = () => {
@@ -65,11 +64,7 @@ const Footer: React.FC = () => {
             <div className="space-y-4">
               <div className="flex items-start">
                 <MapPin className="w-5 h-5 text-agrobravo-red mr-3 mt-1" />
-                <span className="text-white/70">Des Moines, Iowa (EUA)</span>
-              </div>
-              <div className="flex items-start">
-                <Phone className="w-5 h-5 text-agrobravo-red mr-3 mt-1" />
-                <span className="text-white/70">+1 (555) 123-4567</span>
+                <span className="text-white/70">Ames, Iowa (EUA)</span>
               </div>
               <div className="flex items-start">
                 <Mail className="w-5 h-5 text-agrobravo-red mr-3 mt-1" />

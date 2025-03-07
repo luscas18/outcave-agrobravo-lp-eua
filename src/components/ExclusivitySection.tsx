@@ -33,10 +33,10 @@ const ExclusivitySection: React.FC = () => {
                   <Shield className="text-white" size={20} />
                 </div>
                 <div>
-                  <h3 className="font-semibold text-lg mb-1 text-white">Comprometimento Exclusivo</h3>
+                  <h3 className="font-semibold text-lg mb-1 text-white">Acesso a visitas exclusivas</h3>
                   <p className="text-white/90">
-                    Trabalhamos exclusivamente com a rede John Deere, garantindo alinhamento 
-                    total com os valores e objetivos da marca.
+                    Proporcionamos acesso a locais e eventos que não estão disponíveis ao público geral, 
+                    criando oportunidades únicas de networking e aprendizado especializado no setor agrícola.
                   </p>
                 </div>
               </div>

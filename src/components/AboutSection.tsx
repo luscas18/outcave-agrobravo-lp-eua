@@ -41,7 +41,7 @@ const AboutSection: React.FC = () => {
               <div className="flex items-center text-agrobravo-navy mb-6">
                 <MapPin className="mr-2 text-agrobravo-red" />
                 <span className="font-medium">
-                  Agora com sede em Des Moines, Iowa (EUA)
+                  Agora com sede em Ames, Iowa (EUA)
                 </span>
               </div>
               
