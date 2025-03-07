@@ -1,7 +1,7 @@
 
 import React from 'react';
 import AnimatedSection from './AnimatedSection';
-import { UserPlus, TrendingUp, Award, Check } from 'lucide-react';
+import { UserPlus, TrendingUp, Award } from 'lucide-react';
 
 const BenefitCard: React.FC<{
   icon: React.ReactNode;
@@ -63,29 +63,6 @@ const BenefitsSection: React.FC = () => {
             delay={0.3}
           />
         </div>
-        
-        <AnimatedSection animation="fade-in-up" delay={0.4} className="mt-16 p-8 rounded-lg bg-agrobravo-green/5 border border-agrobravo-green/20">
-          <div className="flex flex-col md:flex-row md:items-center justify-between gap-6">
-            <div>
-              <h3 className="text-xl font-semibold text-agrobravo-dark mb-2">
-                Resultados Comprovados
-              </h3>
-              <p className="text-agrobravo-gray">
-                "As experiências organizadas pela AgroBravo fortaleceram nossos laços com os principais clientes, 
-                resultando em um aumento de 28% nas vendas de máquinas de alta performance no trimestre seguinte."
-              </p>
-            </div>
-            <div className="flex items-center space-x-2 bg-white px-4 py-2 rounded-lg shadow-sm">
-              <div className="w-12 h-12 bg-agrobravo-gold/20 rounded-full flex items-center justify-center">
-                <Check className="text-agrobravo-gold" />
-              </div>
-              <div>
-                <div className="text-agrobravo-dark font-medium">Diretor Comercial</div>
-                <div className="text-sm text-agrobravo-gray">Concessionária John Deere</div>
-              </div>
-            </div>
-          </div>
-        </AnimatedSection>
       </div>
     </section>
   );

@@ -28,9 +28,11 @@ export default {
 				agrobravo: {
 					navy: '#0E2C4B',    // Deep navy blue from logo
 					red: '#E83A3A',     // Red from logo
+					gold: '#E83A3A',    // Changed to match red for consistency
 					light: '#F8F7F2',   // Light cream (keeping this from before)
 					dark: '#222222',    // Near black
 					gray: '#8E9196',    // Neutral gray
+					green: '#0E2C4B',   // Changed to match navy for consistency
 				},
 				primary: {
 					DEFAULT: 'hsl(var(--primary))',
