@@ -10,8 +10,8 @@ const Hero: React.FC = () => {
       <div 
         className="absolute inset-0 bg-cover bg-center z-0"
         style={{ 
-          backgroundImage: "url('https://images.unsplash.com/photo-1605810230434-7631ac76ec81?q=80&w=2070')",
-          backgroundPosition: '50% 30%'
+          backgroundImage: "url('https://images.unsplash.com/photo-1595428774223-ef52624120d2?q=80&w=2070')",
+          backgroundPosition: '50% 50%'
         }}
       >
         <div className="absolute inset-0 bg-hero-pattern"></div>
