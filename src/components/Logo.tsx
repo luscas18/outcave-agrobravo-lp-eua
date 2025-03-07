@@ -7,15 +7,14 @@ interface LogoProps {
 }
 
 const Logo: React.FC<LogoProps> = ({ variant = 'default', className = '' }) => {
-  if (variant === 'default' || variant === 'dark') {
+  if (variant === 'default') {
     return (
       <div className={`flex items-center ${className}`}>
-        <img 
-          src="/lovable-uploads/ddeed80f-336b-4d80-8fd5-950606aa6f98.png" 
-          alt="AgroBravo Enterprise" 
-          className="h-10 md:h-12"
-        />
-      </div>
+      <span className="text-2xl font-bold text-black">
+        Agro<span className="text-agrobravo-red">Bravo</span>
+        <span className="text-black text-sm ml-1 tracking-wider">ENTERPRISE</span>
+      </span>
+    </div>
     );
   }
   

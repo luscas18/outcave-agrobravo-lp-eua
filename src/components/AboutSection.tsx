@@ -14,7 +14,7 @@ const AboutSection: React.FC = () => {
               <div className="absolute -right-4 -bottom-4 w-16 h-16 bg-agrobravo-red/30 rounded-full"></div>
               <div className="relative z-10 overflow-hidden rounded-lg shadow-xl">
                 <img 
-                  src="https://images.unsplash.com/photo-1519389950473-47ba0277781c?q=80&w=2070" 
+                  src="/lovable-uploads/escritorio.jpg" 
                   alt="AgroBravo team" 
                   className="w-full h-auto object-cover"
                 />
@@ -32,21 +32,21 @@ const AboutSection: React.FC = () => {
                 Nova visão, mesma excelência
               </h2>
               
-              <p className="text-agrobravo-gray mb-6">
+              <p className="text-gray-600 mb-6 text-[18px] md:text-[20px]">
                 A AgroBravo agora conta com uma nova fase em sua trajetória, consolidando seu 
-                posicionamento exclusivo para concessionárias John Deere, com foco em oferecer 
+                posicionamento <span className='font-semibold'>exclusivo para concessionárias John Deere</span>, com foco em oferecer 
                 experiências estratégicas que fortalecem o relacionamento comercial.
               </p>
               
               <div className="flex items-center text-agrobravo-navy mb-6">
                 <MapPin className="mr-2 text-agrobravo-red" />
-                <span className="font-medium">
-                  Agora com sede em Ames, Iowa (EUA)
+                <span className="font-medium text-[18px] md:text-[20px]">
+                  Agora com sede em <span className='font-semibold'>Ames, Iowa (EUA)</span>
                 </span>
               </div>
               
-              <p className="text-agrobravo-gray">
-                Nossa mudança estratégica para os Estados Unidos reforça nossa expertise internacional 
+              <p className="text-gray-600 text-[18px] md:text-[20px]">
+                Nossa mudança estratégica para os Estados Unidos reforça nossa <span className='font-semibold'>expertise internacional</span>{' '}
                 e nos coloca ainda mais próximos das inovações do setor agrícola, 
                 permitindo criar experiências ainda mais relevantes e impactantes para 
                 concessionárias e seus clientes.
