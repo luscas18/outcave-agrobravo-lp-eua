@@ -29,7 +29,7 @@ const Header: React.FC = () => {
       <div className="container-wide flex items-center justify-between">
         <div className="flex items-center">
           <a href="/" className="flex items-center">
-            <Logo variant={isScrolled ? 'default' : 'light'} />
+            <Logo variant={isScrolled ? 'dark' : 'light'} />
           </a>
         </div>
 
@@ -96,6 +96,7 @@ const Header: React.FC = () => {
           isMobileMenuOpen ? 'translate-x-0' : 'translate-x-full'
         )}
       >
+        <h2 onClick={()=>{setIsMobileMenuOpen(false)}} className='text-right pr-[40px] text-[30px] font-thin'>X</h2>
         <nav className="flex flex-col items-center space-y-8 p-8">
           <a
             href="#about"
