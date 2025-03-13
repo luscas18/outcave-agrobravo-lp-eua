@@ -68,8 +68,8 @@ const CTASection: React.FC = () => {
                   {
                     envio ?
                       <div>
-                        <h2 className='text-lg text-agrobravo-navy text-center mb-[8px]'>Cadastro realizado com sucesso!</h2>
-                        <p className='text-center text-lg'>Um de nossos especialista entrará em contato com você</p>
+                        <h2 className='text-lg text-white text-center mb-[8px]'>Cadastro realizado com sucesso!</h2>
+                        <p className='text-center text-white text-lg'>Um de nossos especialista entrará em contato com você</p>
                       </div> :
                       <div>
                         <h3 className="text-xl font-bold text-white mb-6 flex items-center">
