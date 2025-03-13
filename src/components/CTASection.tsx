@@ -30,7 +30,7 @@ const CTASection: React.FC = () => {
                     <span className="text-agrobravo-navy font-semibold">1</span>
                   </div>
                   <div>
-                    <h3 className="font-semibold text-lg text-agrobravo-dark mb-2">Agende uma Conversa</h3>
+                    <h3 className="font-semibold text-lg text-agrobravo-dark mb-2">Agende uma conversa</h3>
                     <p className="text-agrobravo-gray">
                       Vamos entender seus objetivos comerciais e como podemos ajudar a alcançá-los.
                     </p>
@@ -42,7 +42,7 @@ const CTASection: React.FC = () => {
                     <span className="text-agrobravo-navy font-semibold">2</span>
                   </div>
                   <div>
-                    <h3 className="font-semibold text-lg text-agrobravo-dark mb-2">Planejamento Personalizado</h3>
+                    <h3 className="font-semibold text-lg text-agrobravo-dark mb-2">Planejamento personalizado</h3>
                     <p className="text-agrobravo-gray">
                       Desenvolvemos uma proposta sob medida para suas necessidades específicas.
                     </p>
@@ -54,7 +54,7 @@ const CTASection: React.FC = () => {
                     <span className="text-agrobravo-navy font-semibold">3</span>
                   </div>
                   <div>
-                    <h3 className="font-semibold text-lg text-agrobravo-dark mb-2">Experiências Impactantes</h3>
+                    <h3 className="font-semibold text-lg text-agrobravo-dark mb-2">Experiências impactantes</h3>
                     <p className="text-agrobravo-gray">
                       Implementamos experiências únicas que fortalecem seus relacionamentos comerciais.
                     </p>
@@ -74,7 +74,7 @@ const CTASection: React.FC = () => {
                       <div>
                         <h3 className="text-xl font-bold text-white mb-6 flex items-center">
                           <CalendarCheck className="mr-2 text-agrobravo-red" />
-                          Agendar Reunião
+                          Agendar reunião
                         </h3>
                         <form action='https://docs.google.com/forms/u/0/d/e/1FAIpQLSdolpSyPyQitsRyGqoq24dQf5xNFnWkSt2X8FaPczF9lINaVg/formResponse' target='frame' className="space-y-4" onSubmit={() => {
                           setTimeout(() => {
@@ -120,7 +120,7 @@ const CTASection: React.FC = () => {
                           </div>
 
                           <button type="submit" className="w-full btn-primary bg-agrobravo-red hover:bg-agrobravo-red text-black flex items-center justify-center group">
-                            <span>Agendar Reunião</span>
+                            <span>Agendar reunião</span>
                             <ArrowRight className="ml-2 w-5 h-5 transition-transform duration-300 transform group-hover:translate-x-1" />
                           </button>
                         </form>
