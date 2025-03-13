@@ -12,7 +12,7 @@ const BenefitCard: React.FC<{
   return (
     <AnimatedSection animation="scale-in" delay={delay}>
       <div className="bg-white p-6 rounded-lg shadow-lg hover:shadow-xl transition-shadow duration-300 h-full border border-gray-100">
-        <div className="w-12 h-12 bg-agrobravo-gold/20 rounded-full flex items-center justify-center mb-4">
+        <div className="w-12 h-12 bg-agrobravo-navy/20 rounded-full flex items-center justify-center mb-4">
           {icon}
         </div>
         <h3 className="text-xl font-semibold text-agrobravo-dark mb-3">{title}</h3>
@@ -27,7 +27,7 @@ const BenefitsSection: React.FC = () => {
     <section id="benefits" className="section-padding bg-white">
       <div className="container-wide">
         <AnimatedSection animation="fade-in-up" className="text-center max-w-[800px] mx-auto mb-16">
-          <div className="inline-block px-3 py-1 rounded-full bg-agrobravo-gold/10 border border-agrobravo-gold/20 mb-4">
+          <div className="inline-block px-3 py-1 rounded-full bg-agrobravo-navy/10 border border-agrobravo-navy/20 mb-4">
             <p className="text-agrobravo-dark text-sm font-medium">Benefícios estratégicos</p>
           </div>
           
@@ -43,21 +43,21 @@ const BenefitsSection: React.FC = () => {
         
         <div className="grid md:grid-cols-3 gap-8">
           <BenefitCard
-            icon={<UserPlus className="text-agrobravo-gold" />}
+            icon={<UserPlus className="text-agrobravo-navy" />}
             title="Fortalecimento de relacionamentos"
             description="Consolide laços com clientes estratégicos em ambientes exclusivos, criando conexões que vão além do negócio."
             delay={0.1}
           />
           
           <BenefitCard
-            icon={<TrendingUp className="text-agrobravo-gold" />}
+            icon={<TrendingUp className="text-agrobravo-navy" />}
             title="Novas oportunidades de negócio"
             description="Conversas casuais em cenários inspiradores frequentemente se transformam em grandes acordos. Esteja no lugar certo, com as pessoas certas."
             delay={0.2}
           />
           
           <BenefitCard
-            icon={<Award className="text-agrobravo-gold" />}
+            icon={<Award className="text-agrobravo-navy" />}
             title="Diferencial competitivo"
             description="Surpreenda seus clientes com experiências que a concorrência não pode oferecer. Exclusividade, sofisticação e impacto real nos negócios."
             delay={0.3}

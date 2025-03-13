@@ -14,13 +14,13 @@ const Hero: React.FC = () => {
           backgroundPosition: '50% 50%'
         }}
       >
-        <div className="absolute inset-0 bg-hero-pattern"></div>
+        <div className="absolute inset-0 bg-black/70"></div>
       </div>
 
       {/* Content */}
       <div className="container-wide relative z-10 py-20 md:py-32">
         <div className="max-w-[1000px]">
-          <div className="inline-block px-4 py-1 rounded-full bg-agrobravo-red/20 backdrop-blur-sm border border-agrobravo-red/30 mb-6 opacity-0 animate-fade-in" style={{ animationDelay: '0.3s', animationFillMode: 'forwards' }}>
+          <div className="inline-block px-4 py-1 rounded-full bg-agrobravo-navy/60 backdrop-blur-sm border border-agrobravo-navy mb-6 opacity-0 animate-fade-in" style={{ animationDelay: '0.3s', animationFillMode: 'forwards' }}>
             <p className="text-white font-medium">Exclusivo para concessionárias John Deere</p>
           </div>
 
@@ -34,7 +34,7 @@ const Hero: React.FC = () => {
 
           <div className="opacity-0 animate-fade-in" style={{ animationDelay: '0.9s', animationFillMode: 'forwards' }}>
             <a href="#contact" className={cn(
-              "inline-flex items-center btn-primary group"
+              "inline-flex items-center btn-primary bg-agrobravo-navy group"
             )}>
               <span>Fale com um Especialista</span>
               <ArrowRight className="ml-2 w-5 h-5 transition-transform duration-300 transform group-hover:translate-x-1" />

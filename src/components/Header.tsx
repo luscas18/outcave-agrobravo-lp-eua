@@ -39,8 +39,8 @@ const Header: React.FC = () => {
             href="#about"
             className={cn(
               "transition-colors duration-300",
-              isScrolled 
-                ? "text-agrobravo-navy hover:text-agrobravo-red" 
+              isScrolled
+                ? "text-agrobravo-navy hover:text-agrobravo-red"
                 : "text-white hover:text-agrobravo-red"
             )}
           >
@@ -50,8 +50,8 @@ const Header: React.FC = () => {
             href="#benefits"
             className={cn(
               "transition-colors duration-300",
-              isScrolled 
-                ? "text-agrobravo-navy hover:text-agrobravo-red" 
+              isScrolled
+                ? "text-agrobravo-navy hover:text-agrobravo-red"
                 : "text-white hover:text-agrobravo-red"
             )}
           >
@@ -61,8 +61,8 @@ const Header: React.FC = () => {
             href="#exclusivity"
             className={cn(
               "transition-colors duration-300",
-              isScrolled 
-                ? "text-agrobravo-navy hover:text-agrobravo-red" 
+              isScrolled
+                ? "text-agrobravo-navy hover:text-agrobravo-red"
                 : "text-white hover:text-agrobravo-red"
             )}
           >
@@ -96,37 +96,39 @@ const Header: React.FC = () => {
           isMobileMenuOpen ? 'translate-x-0' : 'translate-x-full'
         )}
       >
-        <h2 onClick={()=>{setIsMobileMenuOpen(false)}} className='text-right pr-[40px] text-[30px] font-thin'>X</h2>
-        <nav className="flex flex-col items-center space-y-8 p-8">
-          <a
-            href="#about"
-            className="text-agrobravo-navy text-xl hover:text-agrobravo-red transition-colors duration-300"
-            onClick={() => setIsMobileMenuOpen(false)}
-          >
-            Sobre
-          </a>
-          <a
-            href="#benefits"
-            className="text-agrobravo-navy text-xl hover:text-agrobravo-red transition-colors duration-300"
-            onClick={() => setIsMobileMenuOpen(false)}
-          >
-            Benefícios
-          </a>
-          <a
-            href="#exclusivity"
-            className="text-agrobravo-navy text-xl hover:text-agrobravo-red transition-colors duration-300"
-            onClick={() => setIsMobileMenuOpen(false)}
-          >
-            Exclusividade
-          </a>
-          <a
-            href="#contact"
-            className="btn-primary"
-            onClick={() => setIsMobileMenuOpen(false)}
-          >
-            Fale Conosco
-          </a>
-        </nav>
+        <div className='bg-white'>
+          <h2 onClick={() => { setIsMobileMenuOpen(false) }} className='text-right pr-[40px] text-[30px] font-thin'>X</h2>
+          <nav className="flex flex-col items-center space-y-8 p-8">
+            <a
+              href="#about"
+              className="text-agrobravo-navy text-xl hover:text-agrobravo-red transition-colors duration-300"
+              onClick={() => setIsMobileMenuOpen(false)}
+            >
+              Sobre
+            </a>
+            <a
+              href="#benefits"
+              className="text-agrobravo-navy text-xl hover:text-agrobravo-red transition-colors duration-300"
+              onClick={() => setIsMobileMenuOpen(false)}
+            >
+              Benefícios
+            </a>
+            <a
+              href="#exclusivity"
+              className="text-agrobravo-navy text-xl hover:text-agrobravo-red transition-colors duration-300"
+              onClick={() => setIsMobileMenuOpen(false)}
+            >
+              Exclusividade
+            </a>
+            <a
+              href="#contact"
+              className="btn-primary"
+              onClick={() => setIsMobileMenuOpen(false)}
+            >
+              Fale Conosco
+            </a>
+          </nav>
+        </div>
       </div>
     </header>
   );

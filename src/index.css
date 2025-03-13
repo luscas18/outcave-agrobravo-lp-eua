@@ -107,8 +107,8 @@
   }
   
   .btn-primary {
-    @apply bg-agrobravo-red text-white font-semibold py-3 px-6 rounded-md 
-           hover:bg-agrobravo-red/90 transition-all duration-300 shadow-md 
+    @apply bg-agrobravo-navy text-white font-semibold py-3 px-6 rounded-md 
+           hover:bg-agrobravo-navy/90 transition-all duration-300 shadow-md 
            hover:shadow-lg active:translate-y-0.5 active:shadow-sm;
   }
   

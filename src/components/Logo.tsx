@@ -13,12 +13,12 @@ const Logo: React.FC<LogoProps> = ({ variant = 'light', className = '' }) => {
     <div>
       {
         variant === 'light' && (
-          <img src="/lovable-uploads/logo_branca.svg" alt="logo Agro Bravo" className={`max-w-[200px]`} />
+          <img src="/lovable-uploads/logo_allwith.svg" alt="logo Agro Bravo" className={`max-w-[200px]`} />
         )
       }
        {
         variant === 'dark' && (
-          <img src="/lovable-uploads/logo.svg" alt="logo Agro Bravo" className={`max-w-[200px]`} />
+          <img src="/lovable-uploads/logo_negativa.svg" alt="logo Agro Bravo" className={`max-w-[200px]`} />
         )
       }
     </div>
