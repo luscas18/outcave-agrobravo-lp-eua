@@ -27,9 +27,7 @@ const Index = () => {
         }
       }
     };
-
     document.addEventListener('click', handleAnchorClick);
-
     return () => {
       document.removeEventListener('click', handleAnchorClick);
     };
