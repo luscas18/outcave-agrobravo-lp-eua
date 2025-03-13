@@ -26,7 +26,7 @@ export default {
 				background: 'hsl(var(--background))',
 				foreground: 'hsl(var(--foreground))',
 				agrobravo: {
-					navy: '#679436',    // Deep navy blue from logo
+					navy: '#367C2B',    // Deep navy blue from logo
 					red: '#FFDE00',     // Red from logo
 					gold: '#E83A3A',    // Changed to match red for consistency
 					light: '#F8F7F2',   // Light cream (keeping this from before)
