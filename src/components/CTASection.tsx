@@ -10,7 +10,7 @@ const CTASection: React.FC = () => {
       <div className="container-wide">
         <div className="max-w-4xl mx-auto glass-card p-8 md:p-12 rounded-2xl overflow-hidden relative">
           <div className="absolute top-0 left-0 w-full h-full bg-white/80 backdrop-blur-sm -z-10"></div>
-          <div className="absolute top-0 left-0 w-2 h-full bg-agrobravo-gold"></div>
+          <div className="absolute top-0 left-0 w-2 h-full bg-agrobravo-navy"></div>
 
           <AnimatedSection animation="fade-in-up" className="text-center mb-12">
             <h2 className="text-3xl md:text-4xl font-bold text-agrobravo-dark mb-6">
@@ -27,8 +27,8 @@ const CTASection: React.FC = () => {
             <div className="grid md:grid-cols-2 gap-8">
               <div className="flex flex-col space-y-6">
                 <div className="flex items-start">
-                  <div className="mr-4 w-10 h-10 flex-shrink-0 bg-agrobravo-gold/20 rounded-full flex items-center justify-center mt-1">
-                    <span className="text-agrobravo-gold font-semibold">1</span>
+                  <div className="mr-4 w-10 h-10 flex-shrink-0 bg-agrobravo-navy/20 rounded-full flex items-center justify-center mt-1">
+                    <span className="text-agrobravo-navy font-semibold">1</span>
                   </div>
                   <div>
                     <h3 className="font-semibold text-lg text-agrobravo-dark mb-2">Agende uma Conversa</h3>
@@ -39,8 +39,8 @@ const CTASection: React.FC = () => {
                 </div>
 
                 <div className="flex items-start">
-                  <div className="mr-4 w-10 h-10 flex-shrink-0 bg-agrobravo-gold/20 rounded-full flex items-center justify-center mt-1">
-                    <span className="text-agrobravo-gold font-semibold">2</span>
+                  <div className="mr-4 w-10 h-10 flex-shrink-0 bg-agrobravo-navy/20 rounded-full flex items-center justify-center mt-1">
+                    <span className="text-agrobravo-navy font-semibold">2</span>
                   </div>
                   <div>
                     <h3 className="font-semibold text-lg text-agrobravo-dark mb-2">Planejamento Personalizado</h3>
@@ -51,8 +51,8 @@ const CTASection: React.FC = () => {
                 </div>
 
                 <div className="flex items-start">
-                  <div className="mr-4 w-10 h-10 flex-shrink-0 bg-agrobravo-gold/20 rounded-full flex items-center justify-center mt-1">
-                    <span className="text-agrobravo-gold font-semibold">3</span>
+                  <div className="mr-4 w-10 h-10 flex-shrink-0 bg-agrobravo-navy/20 rounded-full flex items-center justify-center mt-1">
+                    <span className="text-agrobravo-navy font-semibold">3</span>
                   </div>
                   <div>
                     <h3 className="font-semibold text-lg text-agrobravo-dark mb-2">Experiências Impactantes</h3>
@@ -69,12 +69,12 @@ const CTASection: React.FC = () => {
                   {
                     envio ?
                       <div>
-                        <h2 className='text-lg text-agrobravo-red text-center mb-[8px]'>Cadastro realizado com sucesso!</h2>
+                        <h2 className='text-lg text-agrobravo-navy text-center mb-[8px]'>Cadastro realizado com sucesso!</h2>
                         <p className='text-center text-lg'>Um de nossos especialista entrará em contato com você</p>
                       </div> :
                       <div>
                         <h3 className="text-xl font-bold text-agrobravo-dark mb-6 flex items-center">
-                          <CalendarCheck className="mr-2 text-agrobravo-gold" />
+                          <CalendarCheck className="mr-2 text-agrobravo-navy" />
                           Agendar Reunião
                         </h3>
                         <form action='https://docs.google.com/forms/u/0/d/e/1FAIpQLSdolpSyPyQitsRyGqoq24dQf5xNFnWkSt2X8FaPczF9lINaVg/formResponse' target='frame' className="space-y-4" onSubmit={() => {
@@ -88,7 +88,7 @@ const CTASection: React.FC = () => {
                               type="text"
                               required
                               placeholder="Nome completo"
-                              className="w-full p-3 border border-gray-200 rounded-md focus:outline-none focus:ring-2 focus:ring-agrobravo-gold/50"
+                              className="w-full p-3 border border-gray-200 rounded-md focus:outline-none focus:ring-2 focus:ring-agrobravo-navy/50"
                             />
                           </div>
 
@@ -98,7 +98,7 @@ const CTASection: React.FC = () => {
                               name='entry.618917644'
                               type="email"
                               placeholder="Email"
-                              className="w-full p-3 border border-gray-200 rounded-md focus:outline-none focus:ring-2 focus:ring-agrobravo-gold/50"
+                              className="w-full p-3 border border-gray-200 rounded-md focus:outline-none focus:ring-2 focus:ring-agrobravo-navy/50"
                             />
                           </div>
 
@@ -108,7 +108,7 @@ const CTASection: React.FC = () => {
                               name='entry.1454942656'
                               type="text"
                               placeholder="Concessionária"
-                              className="w-full p-3 border border-gray-200 rounded-md focus:outline-none focus:ring-2 focus:ring-agrobravo-gold/50"
+                              className="w-full p-3 border border-gray-200 rounded-md focus:outline-none focus:ring-2 focus:ring-agrobravo-navy/50"
                             />
                           </div>
 
@@ -116,7 +116,7 @@ const CTASection: React.FC = () => {
                             <textarea
                               name='entry.83084844'
                               placeholder="Mensagem (opcional)"
-                              className="w-full p-3 border border-gray-200 rounded-md h-24 resize-none focus:outline-none focus:ring-2 focus:ring-agrobravo-gold/50"
+                              className="w-full p-3 border border-gray-200 rounded-md h-24 resize-none focus:outline-none focus:ring-2 focus:ring-agrobravo-navy/50"
                             ></textarea>
                           </div>
 
