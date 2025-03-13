@@ -1,6 +1,8 @@
 # CHANGELOG
 
 
+## [25.03.13-3](https://github.com/appmoove/agrobravo-landing-experience-60/releases/tag/25.03.13-3)
+
 ## [25.03.13-2](https://github.com/appmoove/agrobravo-landing-experience-60/releases/tag/25.03.13-2)
 
 ## [25.03.13-1](https://github.com/appmoove/agrobravo-landing-experience-60/releases/tag/25.03.13-1)
