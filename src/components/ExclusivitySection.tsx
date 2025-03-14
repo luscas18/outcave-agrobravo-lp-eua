@@ -14,15 +14,16 @@ const ExclusivitySection: React.FC = () => {
         <div className="flex flex-wrap justify-between items-center">
           <AnimatedSection className='w-full md:w-[45%] mb-[40px] md:mb-0' animation="fade-in-up">
             <div className="inline-block px-3 py-1 rounded-full bg-agrobravo-red/20 backdrop-blur-sm border border-agrobravo-red/30 mb-4">
-              <p className="text-white text-sm font-medium">Parceria exclusiva</p>
+              <p className="text-white text-sm font-medium">Exclusive Partnership</p>
             </div>
 
             <h2 className="text-3xl md:text-4xl font-bold mb-6 text-white">
-              Exclusividade para concessionárias{' '}<span className='text-agrobravo-red'>John Deere</span>
+              Exclusivity for {' '}<span className='text-agrobravo-red'>John Deere</span> dealerships
             </h2>
 
             <p className="text-white mb-8 text-[18px] md:text-[20px]">
-              Nosso foco <span className='font-semibold'>exclusivo na rede John Deere</span> nos permite compreender profundamente as necessidades específicas do seu negócio e oferecer experiências verdadeiramente alinhadas à sua estratégia comercial.
+              Our exclusive <span className='font-medium'>focus on the John Deere network</span> allows us to deeply understand the specific needs of your business and provide experiences that are truly aligned with your commercial strategy.
+
             </p>
 
             <div className="space-y-6">
@@ -31,10 +32,9 @@ const ExclusivitySection: React.FC = () => {
                   <Shield className="text-white" size={20} />
                 </div>
                 <div>
-                  <h3 className="font-semibold text-xl mb-1 text-white">Acesso a visitas exclusivas</h3>
+                  <h3 className="font-semibold text-xl mb-1 text-white">Access to exclusive visits</h3>
                   <p className="text-white/90">
-                    Proporcionamos <span className='font-bold'>acesso a locais e eventos que não estão disponíveis ao público geral</span>,
-                    criando oportunidades únicas de networking e aprendizado especializado no setor agrícola.
+                    We offer access to locations and events that are not available to the general public, creating unique opportunities for networking and specialized learning in the agricultural sector.
                   </p>
                 </div>
               </div>
@@ -44,10 +44,9 @@ const ExclusivitySection: React.FC = () => {
                   <Briefcase className="text-white" size={20} />
                 </div>
                 <div>
-                  <h3 className="font-semibold text-xl mb-1 text-white">Extensão do seu marketing</h3>
+                  <h3 className="font-semibold text-xl mb-1 text-white">Extension of your marketing</h3>
                   <p className="text-white/90">
-                    <span className='font-bold'>Atuamos como uma extensão da sua equipe de marketing</span>, criando experiências
-                    personalizadas que fortalecem sua estratégia comercial.
+                    We act as an extension of your marketing team, designing personalized experiences that strengthen your commercial strategy.
                   </p>
                 </div>
               </div>
@@ -57,10 +56,9 @@ const ExclusivitySection: React.FC = () => {
                   <Users className="text-white" size={20} />
                 </div>
                 <div>
-                  <h3 className="font-semibold text-xl mb-1 text-white">Networking estratégico</h3>
+                  <h3 className="font-semibold text-xl mb-1 text-white">Strategic networking</h3>
                   <p className="text-white/90">
-                    <span className='font-bold'>Criamos ambientes para conexões valiosas</span> entre concessionárias
-                    e clientes premium em contextos exclusivos.
+                    We create environments for valuable connections between dealerships and premium clients in exclusive settings.
                   </p>
                 </div>
               </div>
@@ -81,10 +79,10 @@ const ExclusivitySection: React.FC = () => {
                   />
                 </div>
 
-                <h3 className="text-xl font-bold mb-4 text-white">Programa de parceria estratégica</h3>
+                <h3 className="text-xl font-bold mb-4 text-white">Strategic partnership program</h3>
 
                 <p className="text-white text-lg">
-                  Transforme clientes em parceiros de negócios por meio de nossas experiências exclusivas, direcionadas ao fortalecimento de laços comerciais.
+                  Turn clients into business partners through our exclusive experiences, designed to strengthen commercial relationships.
                 </p>
               </div>
             </div>

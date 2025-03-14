@@ -17,12 +17,11 @@ const CTASection: React.FC = () => {
               <div className="w-full lg:w-[48%] flex flex-col space-y-6">
                 <AnimatedSection animation="fade-in-up" className="text-center lg:text-left mb-12">
                   <h2 className="text-3xl md:text-4xl font-bold text-agrobravo-dark mb-6">
-                    Vamos fortalecer sua estratégia comercial?
+                    Ready to strengthen Your commercial strategy?
                   </h2>
 
                   <p className="text-gray-600 text-lg max-w-2xl mx-auto">
-                    Entre em contato para descobrir como podemos criar <span className='font-semibold'>experiências estratégicas
-                      personalizadas para sua concessionária John Deere.</span>
+                    Contact us to discover how we can create customized strategic experiences for your John Deere dealership.
                   </p>
                 </AnimatedSection>
                 <div className="flex items-start">
@@ -30,9 +29,9 @@ const CTASection: React.FC = () => {
                     <span className="text-agrobravo-navy font-semibold">1</span>
                   </div>
                   <div>
-                    <h3 className="font-semibold text-lg text-agrobravo-dark mb-2">Agende uma conversa</h3>
+                    <h3 className="font-semibold text-lg text-agrobravo-dark mb-2">Schedule a conversation</h3>
                     <p className="text-agrobravo-gray">
-                      Vamos entender seus objetivos comerciais e como podemos ajudar a alcançá-los.
+                      Let’s understand your business goals and how we can help you achieve them.
                     </p>
                   </div>
                 </div>
@@ -42,9 +41,9 @@ const CTASection: React.FC = () => {
                     <span className="text-agrobravo-navy font-semibold">2</span>
                   </div>
                   <div>
-                    <h3 className="font-semibold text-lg text-agrobravo-dark mb-2">Planejamento personalizado</h3>
+                    <h3 className="font-semibold text-lg text-agrobravo-dark mb-2">Customized planning</h3>
                     <p className="text-agrobravo-gray">
-                      Desenvolvemos uma proposta sob medida para suas necessidades específicas.
+                      We develop a tailor-made proposal for your specific needs.
                     </p>
                   </div>
                 </div>
@@ -54,9 +53,9 @@ const CTASection: React.FC = () => {
                     <span className="text-agrobravo-navy font-semibold">3</span>
                   </div>
                   <div>
-                    <h3 className="font-semibold text-lg text-agrobravo-dark mb-2">Experiências impactantes</h3>
+                    <h3 className="font-semibold text-lg text-agrobravo-dark mb-2">Impactful experiences</h3>
                     <p className="text-agrobravo-gray">
-                      Implementamos experiências únicas que fortalecem seus relacionamentos comerciais.
+                      We implement unique experiences that strengthen your business relationships.
                     </p>
                   </div>
                 </div>
@@ -68,13 +67,13 @@ const CTASection: React.FC = () => {
                   {
                     envio ?
                       <div>
-                        <h2 className='text-lg text-white text-center mb-[8px]'>Cadastro realizado com sucesso!</h2>
-                        <p className='text-center text-white text-lg'>Um de nossos especialista entrará em contato com você</p>
+                        <h2 className='text-lg text-white text-center mb-[8px]'>Registration successful!</h2>
+                        <p className='text-center text-white text-lg'>One of our specialists will contact you soon.</p>
                       </div> :
                       <div>
                         <h3 className="text-xl font-bold text-white mb-6 flex items-center">
                           <CalendarCheck className="mr-2 text-agrobravo-red" />
-                          Agendar reunião
+                          Schedule a meeting
                         </h3>
                         <form action='https://docs.google.com/forms/u/0/d/e/1FAIpQLSdolpSyPyQitsRyGqoq24dQf5xNFnWkSt2X8FaPczF9lINaVg/formResponse' target='frame' className="space-y-4" onSubmit={() => {
                           setTimeout(() => {
@@ -86,7 +85,7 @@ const CTASection: React.FC = () => {
                               name='entry.823912085'
                               type="text"
                               required
-                              placeholder="Nome completo"
+                              placeholder="Full name"
                               className="w-full  text-black placeholder:text-gray-600/80 p-3 border border-gray-200 rounded-md focus:outline-none focus:ring-2 focus:ring-agrobravo-navy/50"
                             />
                           </div>
@@ -106,7 +105,7 @@ const CTASection: React.FC = () => {
                               required
                               name='entry.1454942656'
                               type="text"
-                              placeholder="Concessionária"
+                              placeholder="Dealership"
                               className="w-full p-3 border border-gray-200 rounded-md focus:outline-none focus:ring-2 focus:ring-agrobravo-navy/50"
                             />
                           </div>
@@ -114,13 +113,13 @@ const CTASection: React.FC = () => {
                           <div>
                             <textarea
                               name='entry.83084844'
-                              placeholder="Mensagem (opcional)"
+                              placeholder="Message (optional)"
                               className="w-full p-3 border border-gray-200 rounded-md h-24 resize-none focus:outline-none focus:ring-2 focus:ring-agrobravo-navy/50"
                             ></textarea>
                           </div>
 
                           <button type="submit" className="w-full btn-primary bg-agrobravo-red hover:bg-agrobravo-red text-black flex items-center justify-center group">
-                            <span>Agendar reunião</span>
+                            <span>Schedule meeting</span>
                             <ArrowRight className="ml-2 w-5 h-5 transition-transform duration-300 transform group-hover:translate-x-1" />
                           </button>
                         </form>
