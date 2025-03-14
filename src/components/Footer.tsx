@@ -14,7 +14,7 @@ const Footer: React.FC = () => {
               </a>
             </div>
             <p className="text-white/70 mb-6">
-              Experiências estratégicas para concessionárias John Deere, fortalecendo conexões e impulsionando negócios.
+              Strategic experiences for John Deere dealerships, strengthening connections and boosting business.
             </p>
             <div className="flex space-x-4">
               <a target='_blank' href="https://www.facebook.com/share/14v1rKTXSH/?mibextid=wwXIfr" className="w-10 h-10 rounded-full bg-white/10 flex items-center justify-center hover:bg-white/20 transition-colors">
@@ -39,12 +39,12 @@ const Footer: React.FC = () => {
           </div>
           <div className='hidden md:block'></div>
           <div className="col-span-1">
-            <h3 className="text-lg font-semibold mb-4">Navegação</h3>
+            <h3 className="text-lg font-semibold mb-4">Navigation</h3>
             <ul className="space-y-2">
-              <li><a href="#about" className="text-white/70 hover:text-white transition-colors">Sobre</a></li>
-              <li><a href="#benefits" className="text-white/70 hover:text-white transition-colors">Benefícios</a></li>
-              <li><a href="#exclusivity" className="text-white/70 hover:text-white transition-colors">Exclusividade</a></li>
-              <li><a href="#contact" className="text-white/70 hover:text-white transition-colors">Contato</a></li>
+              <li><a href="#about" className="text-white/70 hover:text-white transition-colors">About</a></li>
+              <li><a href="#benefits" className="text-white/70 hover:text-white transition-colors">Benefits</a></li>
+              <li><a href="#exclusivity" className="text-white/70 hover:text-white transition-colors">Exclusivity</a></li>
+              <li><a href="#contact" className="text-white/70 hover:text-white transition-colors">Contact</a></li>
             </ul>
           </div>
 
@@ -59,7 +59,7 @@ const Footer: React.FC = () => {
           </div> */}
 
           <div className="col-span-1">
-            <h3 className="text-lg font-semibold mb-4">Contato</h3>
+            <h3 className="text-lg font-semibold mb-4">Contact</h3>
             <div className="space-y-4">
               <div className="flex items-start">
                 <MapPin className="w-5 h-5 text-agrobravo-red mr-3 mt-1" />
@@ -76,7 +76,7 @@ const Footer: React.FC = () => {
         <div className="mt-12 pt-8 border-t border-white/10">
           <div className="flex flex-col md:flex-row md:justify-between items-center">
             <p className="text-white/60 text-sm mb-4 md:mb-0">
-              &copy; {new Date().getFullYear()} AgroBravo Enterprise. Todos os direitos reservados.
+              &copy; {new Date().getFullYear()} AgroBravo Enterprise. All rights reserved.
             </p>
             {/* <div className="flex space-x-6">
               <a href="#" className="text-white/60 text-sm hover:text-white transition-colors">Termos de Uso</a>

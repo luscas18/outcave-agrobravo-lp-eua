@@ -44,7 +44,7 @@ const Header: React.FC = () => {
                 : "text-white hover:text-agrobravo-red"
             )}
           >
-            Sobre
+            About
           </a>
           <a
             href="#benefits"
@@ -55,7 +55,7 @@ const Header: React.FC = () => {
                 : "text-white hover:text-agrobravo-red"
             )}
           >
-            Vantagens
+            Advantages
           </a>
           <a
             href="#exclusivity"
@@ -66,13 +66,13 @@ const Header: React.FC = () => {
                 : "text-white hover:text-agrobravo-red"
             )}
           >
-            Exclusividade
+            Exclusivity
           </a>
           <a
             href="#contact"
             className="btn-primary"
           >
-            Fale conosco
+            Contact us
           </a>
         </nav>
 
@@ -104,28 +104,28 @@ const Header: React.FC = () => {
               className="text-agrobravo-navy text-xl hover:text-agrobravo-red transition-colors duration-300"
               onClick={() => setIsMobileMenuOpen(false)}
             >
-              Sobre
+              About
             </a>
             <a
               href="#benefits"
               className="text-agrobravo-navy text-xl hover:text-agrobravo-red transition-colors duration-300"
               onClick={() => setIsMobileMenuOpen(false)}
             >
-              Vantagens
+              Advantages
             </a>
             <a
               href="#exclusivity"
               className="text-agrobravo-navy text-xl hover:text-agrobravo-red transition-colors duration-300"
               onClick={() => setIsMobileMenuOpen(false)}
             >
-              Exclusividade
+              Exclusivity
             </a>
             <a
               href="#contact"
               className="btn-primary"
               onClick={() => setIsMobileMenuOpen(false)}
             >
-              Fale conosco
+             Contact us
             </a>
           </nav>
         </div>
