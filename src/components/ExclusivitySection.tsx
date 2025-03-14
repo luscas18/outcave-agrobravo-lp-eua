@@ -22,9 +22,7 @@ const ExclusivitySection: React.FC = () => {
             </h2>
 
             <p className="text-white mb-8 text-[18px] md:text-[20px]">
-              Nosso <span className='font-semibold'>foco exclusivo</span> na rede John Deere nos permite compreender profundamente
-              as necessidades específicas do seu negócio e oferecer experiências verdadeiramente
-              alinhadas com sua estratégia comercial.
+              Nosso foco <span className='font-semibold'>exclusivo na rede John Deere</span> nos permite compreender profundamente as necessidades específicas do seu negócio e oferecer experiências verdadeiramente alinhadas à sua estratégia comercial.
             </p>
 
             <div className="space-y-6">
@@ -77,7 +75,7 @@ const ExclusivitySection: React.FC = () => {
               <div className="glass-card relative z-10 overflow-hidden rounded-2xl p-8 max-w-md bg-white/10 backdrop-blur-sm border border-white/20">
                 <div className="mb-6">
                   <img
-                    src="https://images.pexels.com/photos/3183197/pexels-photo-3183197.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2"
+                    src="/lovable-uploads/viagem.jpeg"
                     alt="Strategic meeting"
                     className="w-full h-auto rounded-lg"
                   />
@@ -86,8 +84,7 @@ const ExclusivitySection: React.FC = () => {
                 <h3 className="text-xl font-bold mb-4 text-white">Programa de parceria estratégica</h3>
 
                 <p className="text-white text-lg">
-                  Transforme clientes em parceiros de negócios através das nossas experiências
-                  exclusivas direcionadas para fortalecer laços comerciais.
+                  Transforme clientes em parceiros de negócios por meio de nossas experiências exclusivas, direcionadas ao fortalecimento de laços comerciais.
                 </p>
               </div>
             </div>

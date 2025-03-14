@@ -45,7 +45,7 @@ const BenefitsSection: React.FC = () => {
           <BenefitCard
             icon={<UserPlus className="text-agrobravo-navy" />}
             title="Fortalecimento de relacionamentos"
-            description="Consolide laços com clientes estratégicos em ambientes exclusivos, criando conexões que vão além do negócio."
+            description="Consolide laços com clientes estratégicos em ambientes exclusivos, criando conexões que vão além dos negócios."
             delay={0.1}
           />
           
@@ -59,7 +59,7 @@ const BenefitsSection: React.FC = () => {
           <BenefitCard
             icon={<Award className="text-agrobravo-navy" />}
             title="Diferencial competitivo"
-            description="Surpreenda seus clientes com experiências que a concorrência não pode oferecer. Exclusividade, sofisticação e impacto real nos negócios."
+            description="Surpreenda seus clientes com experiências que a concorrência não pode oferecer:  Exclusividade, sofisticação e impacto real nos negócios."
             delay={0.3}
           />
         </div>
