@@ -12,7 +12,7 @@ const ExclusivitySection: React.FC = () => {
 
       <div className="container-wide relative z-10">
         <div className="flex flex-wrap justify-between items-center">
-          <AnimatedSection className='w-full md:w-[45%]' animation="fade-in-up">
+          <AnimatedSection className='w-full md:w-[45%] mb-[40px] md:mb-0' animation="fade-in-up">
             <div className="inline-block px-3 py-1 rounded-full bg-agrobravo-red/20 backdrop-blur-sm border border-agrobravo-red/30 mb-4">
               <p className="text-white text-sm font-medium">Parceria exclusiva</p>
             </div>
