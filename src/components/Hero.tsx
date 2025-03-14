@@ -25,18 +25,18 @@ const Hero: React.FC = () => {
           </div>
 
           <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold text-white mb-6 opacity-0 animate-fade-in" style={{ animationDelay: '0.5s', animationFillMode: 'forwards' }}>
-            Retorno da AgroBravo – Exclusividade para concessionárias <span className='text-agrobravo-red'>John Deere</span>
+          AgroBravo – Exclusividade para concessionárias <span className='text-agrobravo-red'>John Deere</span>
           </h1>
 
           <p className="text-[18px] md:text-[20px] text-white/90 mb-8 max-w-2xl opacity-0 animate-fade-in" style={{ animationDelay: '0.7s', animationFillMode: 'forwards' }}>
-            Viagens estratégicas que fortalecem conexões e impulsionam negócios. Agora <span className='font-semibold'>contamos com sede nos EUA</span>, criando experiências ainda mais impactantes para você e seus clientes.
+          Viagens estratégicas que fortalecem suas conexões e impulsionam seus negócios. Agora, <span className='font-medium'>com nossa sede nos EUA</span>, oferecemos experiências ainda mais transformadoras para você e seus clientes.
           </p>
 
           <div className="opacity-0 animate-fade-in" style={{ animationDelay: '0.9s', animationFillMode: 'forwards' }}>
             <a href="#contact" className={cn(
               "inline-flex items-center btn-primary bg-agrobravo-navy group"
             )}>
-              <span>Fale com um Especialista</span>
+              <span>Fale com um especialista</span>
               <ArrowRight className="ml-2 w-5 h-5 transition-transform duration-300 transform group-hover:translate-x-1" />
             </a>
           </div>
