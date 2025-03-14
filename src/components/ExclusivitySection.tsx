@@ -11,8 +11,8 @@ const ExclusivitySection: React.FC = () => {
       <div className="absolute bottom-0 left-0 w-80 h-80 bg-white/5 rounded-full translate-y-1/2 -translate-x-1/2"></div>
 
       <div className="container-wide relative z-10">
-        <div className="grid md:grid-cols-2 gap-12 items-center">
-          <AnimatedSection animation="fade-in-up">
+        <div className="flex flex-wrap justify-between items-center">
+          <AnimatedSection className='w-full md:w-[45%] mb-[40px] md:mb-0' animation="fade-in-up">
             <div className="inline-block px-3 py-1 rounded-full bg-agrobravo-red/20 backdrop-blur-sm border border-agrobravo-red/30 mb-4">
               <p className="text-white text-sm font-medium">Parceria exclusiva</p>
             </div>
@@ -67,12 +67,12 @@ const ExclusivitySection: React.FC = () => {
             </div>
           </AnimatedSection>
 
-          <AnimatedSection animation="slide-in-right" delay={0.3}>
-            <div className="relative h-full flex items-center justify-center">
+          <AnimatedSection className='w-full md:w-[50%]' animation="slide-in-right" delay={0.3}>
+            <div className="relative w-full h-full flex items-center justify-center">
               <div className="absolute -left-8 top-8 w-48 h-48 bg-agrobravo-red/10 rounded-full"></div>
-              <div className="absolute -right-4 -bottom-4 w-24 h-24 bg-agrobravo-red/20 rounded-full"></div>
+              <div className="absolute -right-4 -bottom-4 w-[24] h-24 bg-agrobravo-red/20 rounded-full"></div>
 
-              <div className="glass-card relative z-10 overflow-hidden rounded-2xl p-8 max-w-md bg-white/10 backdrop-blur-sm border border-white/20">
+              <div className="glass-card w-full relative z-10 overflow-hidden rounded-2xl p-8 bg-white/10 backdrop-blur-sm border border-white/20">
                 <div className="mb-6">
                   <img
                     src="/lovable-uploads/viagem.jpeg"
